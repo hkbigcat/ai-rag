@@ -1,0 +1,23 @@
+# secrets & local env
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# local data / generated
+*.pdf
+extracted_text.txt
+chunks.txt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
